@@ -44,7 +44,7 @@ nodist use {バージョン}
 <br/>
 
 ### npm のアップデート
-npm は Node.jsのパッケージ管理ツール(※[yarn](https://classic.yarnpkg.com/ja/)というのもあります。
+npm は Node.jsのパッケージ管理ツール(※[yarn](https://classic.yarnpkg.com/ja/)というのもあります)
 node.jsをインストールした際に一緒にインストールされます。
 
 npmのバージョン確認
