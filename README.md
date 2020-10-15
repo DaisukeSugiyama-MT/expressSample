@@ -2,6 +2,8 @@
 Node.jsのApplication サーバ Express のサンプルです。
 Node.jsのインストールから行います。
 
+<br/>
+
 ## node.jsのインストール
 windows向け
 Nodist(Node.jsのバージョン管理ができるツール)を使用してNode.jsをインストールします。
@@ -10,6 +12,8 @@ Nodist(Node.jsのバージョン管理ができるツール)を使用してNode.
 
 以下リンクから、NodistSetup.exeをダウンロード
 https://github.com/nullivex/nodist/releases
+
+<br/>
 
 ### Nodist 基本コマンド
 Nodistのバージョン確認
@@ -37,6 +41,8 @@ Node.js バージョン切替
 nodist use {バージョン}
 ```
 
+<br/>
+
 ### npm のアップデート
 npm は Node.jsのパッケージ管理ツール(※[yarn](https://classic.yarnpkg.com/ja/)というのもあります。
 node.jsをインストールした際に一緒にインストールされます。
@@ -58,14 +64,20 @@ npxはローカルにインストールしたnpm packageのコマンドを実行
 npx i npx -g
 ```
 
+<br/>
+
 ## Express インストール
 ExpressはNode.jsのWebアプリフレームワークです。
 （その他のフレームワークには[Meteor](https://www.meteor.com/),[koa](https://koajs.com/),[Hapi](https://hapi.dev/)などがあります。）
+
+<br/>
 
 ### npxを利用してExpressを使用する場合
 ```
 npx express {アプリ名}
 ```
+
+<br/>
 
 ### Express-GeneratorをインストールしてExpressを利用する場合
 ```
@@ -75,6 +87,8 @@ npm install -g express-generator
 ```
 express {アプリ名}
 ```
+
+<br/>
 
 ### Express起動
 アプリのディレクトリに移動,使用するパッケージのインストール
@@ -88,6 +102,7 @@ npm start
 以下へアクセス
 http://localhost:3000
 
+<br/>
 
 ### 参考
 https://qiita.com/satoyan419/items/56e0b5f35912b9374305
