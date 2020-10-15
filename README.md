@@ -5,6 +5,7 @@ Node.jsのインストールから行います。
 ## node.jsのインストール
 windows向け
 Nodist(Node.jsのバージョン管理ができるツール)を使用してNode.jsをインストールします。
+
 参考(https://qiita.com/satoyan419/items/56e0b5f35912b9374305)
 
 以下リンクから、NodistSetup.exeをダウンロード
